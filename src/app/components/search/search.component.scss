@@ -1,0 +1,30 @@
+label {
+    text-align: center;
+}
+
+button {
+    margin-left: 10px;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: pink;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-search {
+    width: 100%; /* Makes it full-width (adjust as needed) */
+    max-width: 800px; /* Set a max width */
+    height: 50px; /* Increase height */
+    font-size: 18px; /* Make text larger */
+    padding: 10px 20px; /* Space inside the box */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid #000000; /* Border color */
+    outline: none; /* Remove default outline */
+    transition: 0.3s ease-in-out; /* Smooth effect */
+}
